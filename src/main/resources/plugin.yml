@@ -1,0 +1,13 @@
+name: AlwaysAngryMobs
+version: '${project.version}'
+main: srdqrk.alwaysangrymobs.AlwaysAngryMobs
+api-version: 1.18
+permissions:
+  aam.*:
+    description: Gives access to all AlwaysAngryMobs commands
+    default: op
+    children:
+  amm.admin:
+    description: Give acces to change to hostile or neutral state
+    default: op
+
